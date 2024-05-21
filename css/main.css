@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "League spartan";
+    font-weight: 400;
+}
+menu {
+    width: 18%;
+    height: 100%;
+    position: fixed;
+    background: #6DA5A9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.main-icon img{
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    object-fit: cover;
+    box-shadow: 2 px 2px rgb(94,142,168);
+    
+}
+
+.divider-menu img{
+    width: 30px;
+    height: 30px;
+    display: inline;
+    margin: 20px 0;
+}
+h2 {
+    color: #6DA5A9; 
+}
+
+ul{
+    list-style-type: none;
+}
+.menu-button{
+    height: 20px;
+    width: 150px;
+    background-color: black;
+    border: 1px solid #6DA5A9;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu-button:hover{
+    transform: scale(1.1);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#mainIndex{
+    background-color: #ADD1D2;
+    height: 100vh;
+    width: 82%;
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.title-bar {
+    width: 90%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    
+}
+
+.title-bar img {
+    display: inline;
+    height: 200px;
+    width: 200px;
+    margin-top: 10px;
+    /* z-index: -1; */
+}
+
+h1{
+    font-family: 'Dawning of a New Day', sans-serif; /*change that font again*/
+    font-size: 50px;
+    color: black;
+    text-align: left;
+}
+
+#mainBubble{
+    background-color: #6DA5A9;
+    width: 90%;
+    height: 100vh;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 20px;
+}
+
+#mainBubble p{
+    font-size: 18px;
+    line-height: 1.6;
+}

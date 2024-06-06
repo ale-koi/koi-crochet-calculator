@@ -433,7 +433,7 @@ function mainHome(){
     
 }
 
-/*little events for home+menu | ｀Д´| this could be done with less lines I guess two functions there (((＠°▽°＠)八(＠°▽°＠)))*/
+/*little events for home+menu | ｀Д´| */
 
 let pickedHome = document.querySelector(".home")
 pickedHome.addEventListener("click", () =>{

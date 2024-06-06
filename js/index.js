@@ -14,7 +14,7 @@ const personalizedPatterns = [
         A good big project to start with!`,
         info: `
         <ul>
-        <h4>This pattern requires a:<br> 10*10 cm swatch done in Double Crochet.</h4><br> 
+        <h4>This pattern requires a:<br> 10*10 cm swatch done in Double Crochet.</h4> 
         <center><p>If you don't know how to do it, check this <a src="">insert here link </p>
         <li> <strong>For your back:<strong> measure between your shoulders</li>
         <li> For your length: shoulder to hips for full length, shoulder to waist for cropped look. You can go longer or shorter if you want!</li>

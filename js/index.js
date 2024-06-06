@@ -463,7 +463,8 @@ const coverMeasurements = []
 
 /*calculator m{oYo}屮 */
 function calculatorPage(){
-    
+    description.style.display = ""
+    linksMenu.style.display = "none"
     
     miniMenuButtons()
     title.innerText = "Calculator!"

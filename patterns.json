@@ -1,0 +1,41 @@
+[
+    {
+        "id": "cardigan-perso",
+        "name": "Cardigan",
+        "pic": "../images/cardigan.webp",
+        "measurements": {
+          "Back": 20,
+          "Arm": 20,
+          "Height": 35
+        },
+        "swatch": "Double Crochet Stitch.",
+        "description": "Simple cardigan, good for spring and autumn. A good big project to start with!",
+        "info": "<ul>\n<h4>This pattern requires a:<br> 10*10 cm swatch done in Double Crochet.</h4> \n<center><p>If you don't know how to do it, check this <h6>LINK</h6>\n<li> <strong>For your back:<strong> measure between your shoulders</li>\n<li> For your length: shoulder to hips for full length, shoulder to waist for cropped look. You can go longer or shorter if you want!</li>\n<li>For your arm: Rest your hand on your waist, measure from shoulder to wirst following the shape of the bent arm </li>\n</ul>"
+      },
+
+      {
+        "id": "halter-perso",
+        "name": "Halter Top",
+        "pic": "../images/halter.webp",
+        "measurements": {
+          "Bust": 70,
+          "Height": 35
+        },
+        "swatch": "Lemon peel stitch.",
+        "description": "Perfect top for summer or a music festival! Add colors to match your style.",
+        "info": "<ul>\n<h4>This pattern requires a:<br> 10*10 cm swatch done in Lemon Peel </h4><br> \n<center><p>If you don't know how to do it, check this <h6>LINK</h6></p>\n<li> <strong>For your bust:<strong> measure around the most prominent part of your chest, leaving two fingers between your body and the measuring tape.</li>\n<li> For your length: measure from your neck to navel or hips.</li>\n</ul>"
+      },
+
+      {
+        "id": "cover-perso",
+        "name": "Cover up",
+        "pic": "../images/cover-up.webp",
+        "measurements": {
+          "Height": 35,
+          "Width": 20
+        },
+        "swatch": "Treble crochet V-Stitch",
+        "description": "Going to the beach? What a perfect companion!",
+        "info": "<ul>\n<h4>This pattern requires a:<br> 10*10 cm swatch done in Treble crochet V-Stitch </h4><br> \n<center><p>If you don't know how to do it, check this <h6>LINK</h6></p>\n<li> <strong>For your width:<strong> One option is measuring shoulder to shoulder, or could make it sloucher by measuring from arm to arm going over your chest.</li>\n<li> For your length: shoulder to hips for full length, shoulder to waist for cropped look. You can go longer or shorter if you want!</li>\n</ul>"
+      }
+]

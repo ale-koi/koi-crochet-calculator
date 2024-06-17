@@ -1,0 +1,30 @@
+{
+  "name": "js---final-project",
+  "version": "1.0.0",
+  "description": "Final Project for JS course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ale-koi/koi-crochet-calculator.git"
+  },
+  "keywords": [
+    "crochet",
+    "calculator",
+    "project"
+  ],
+  "author": "Ale Adrianza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ale-koi/koi-crochet-calculator/issues"
+  },
+  "homepage": "https://github.com/ale-koi/koi-crochet-calculator#readme",
+  "dependencies": {
+    "@dogstudio/highway": "^2.2.1",
+    "gsap": "^3.12.5",
+    "sweetalert2": "^11.11.1",
+    "toastify-js": "^1.12.0"
+  }
+}

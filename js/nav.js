@@ -1,0 +1,5 @@
+export const title = document.querySelector("h1")
+export const description = document.querySelector(".step-description")
+export const step = document.querySelector(".main-step")
+export const listForMiniMenu = document.createElement("div")
+export const btn = document.createElement("button")

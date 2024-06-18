@@ -9,7 +9,8 @@ let userCardiganMeasu = JSON.parse(sessionStorage.getItem('userCardiganMeasureme
 let userHalterMeasu = JSON.parse(sessionStorage.getItem('userHalterMeasurements'));
 let userCoverMeasu = JSON.parse(sessionStorage.getItem('userCoverMeasurements'))
 let userSwatch = JSON.parse(sessionStorage.getItem('userSwatchNumbers'))
-description.innerHTML=""
+description.remove()
+
 
     if (patternType == "cardigan-perso"){
     let cardiganFirstRowBack = parseInt(userSwatch[0].stitches) * parseInt(userCardiganMeasu[2].back) / 10;
@@ -23,10 +24,10 @@ description.innerHTML=""
         <h4>Square Cardigan:</h4>
             <h5>You'll need ${Math.ceil(cardiganTotalRows)} rows to complete your garment</h5>
             <ul>
-            <li>First, crochet every one of the pieces, making sure to follow the instructions</li>
-            <li>After those are done, sew them putting both <strong>right sides</strong> together</li>
+            <li>First, crochet every one of the pieces, making sure to follow the instructions.</li>
+            <li>After those are done, sew them putting both the *right sides* together.</li>
             <li>Remember to block your project!</li>
-            <li>You can add ribbing to the piece if you want, check here for instructions! <a src="">link</a></li>
+            <li>You can add ribbing to the piece if you want, check here for instructions! <a src="https://www.youtube.com/watch?v=gGEm104uDRs" target="_blank">Link to video!</a></li>
             </ul>
             <img src="../images/star.svg">
             <h5> Back Panel</h5>
@@ -66,33 +67,33 @@ description.innerHTML=""
                     <h4>Halter Top:</h4>
                         <h5>You'll need ${Math.ceil(topTotalRows)} rows to complete your garment</h5>
                         <ul>
-                        <li>This garment is made bottom up. You'll start with the widest part of your top.</li>
-                        <li>After you finish the main part, you'll need to do the ties</li>
+                        <li>This garment is made bottom-up. You'll start with the widest part of your top.</li>
+                        <li>After you finish the main part, you'll need to do the ties.</li>
                         <li>Remember to block your project!</li>
                         </ul>
                         <img src="../images/yarn-black.svg">
                         <h5>To keep in mind:</h5>
                         <ul>
                             <li>You can start decreasing a little after or little before the pattern says so.</li>
-                            <li>If the decrease is going too fast, you skip one row of decrease. </li>
-                            <li>For that last step, put a marker stitch to keep the count.</li>
+                            <li>If the decrease is going too fast, you skip one row of decrease.</li>
+                            <li>When you're decreasing, put a marker stitch to keep the count.</li>
                             </ul>
                     </div>
                     <div id="patternInstructions" class="intructions">
                             <img src="../images/star.svg">
                             <h5> Pattern</h5>
                             <ul>
-                                <li> Foundation: Chain ${Math.ceil(topFirstRow)} + 2 for your turning chain.</li>
+                                <li>Foundation: Chain ${Math.ceil(topFirstRow)} + 2 for your turning chain.</li>
                                 <li>Row 1: 1 sc, 1 hdc all around, ch1 if you finished in hdc, or ch2 if you finished in sc. </li>
                                 <li>Row 2-4: if you finished in hdc: 1sc, 1 hdc all around. If you finished the previous row with a sc, start with a hdc.</li>
                                 <li>Row 5 - ${Math.ceil(topTotalRows)}: dec, 1 sc or 1 hdc depending on what you finished on, dec.</li>
-                                <li>You can always taste on the body before finishing it. </li>
+                                <li>You can always try it on the body before finishing it and adjust if necessary. </li>
                                 </ul>
 
                                 <img src="../images/star.svg">
                             <h5>For the ties:</h5>
                             <ul>
-                                <li>Here goes the instructions</li>
+                                <li>Make a slipknot and put your hook through the last stich on the corner of the piece (this could be done with either of the corners), and chain 1, keep chaining until the ties reach your desired length, do that with the rest of the corners.</li>
                                 
                                 </ul>
                     </div>
@@ -123,12 +124,16 @@ description.innerHTML=""
                             <li>This pattern needs to start with a multiple of 3, but don't worry, the calculator should have given you such a number.</li>
                             <li>If you're a beginner, marking the first and last stitch always help with counting.</li>
                             <li>Once you have the two pieces, put both pieces together, mark from the edges to the point you want to be your neckline to be, then sew them together either with a tapestry needle or using slipstitch, making sure the hook goes through both pieces.</li>
-                            <li>For the armholes, follow the same process as before, making sure all the sewing is in the same side of the piece. For this, measure from the bottom edge upwards to were you want your armholes to be.</li>
+                            
                             
                             </ul>
                     </div>
                     <div id="patternInstructions" class="intructions">
                             <img src="../images/star.svg">
+                            <ul>
+                            
+                            <li>For the armholes, follow the same process as before, making sure all the sewing is in the same side of the piece. For this, measure from the bottom edge upwards to were you want your armholes to be.</li>
+                            </ul>
                             <h5> Pattern</h5>
                             <ul>
                                 <li> Foundation: Chain ${parseInt(coverFirstRow)} + 4 for your turning chain.</li>

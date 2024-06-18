@@ -14,8 +14,7 @@ step.innerHTML=
 <h4>For a more accurate calculation:<h4>
 <p>Your swatch should have at least 5 stitches and at least 5 rows, and be at 10 cm wide by 10 cm tall done with the same yarn and hook you plan to use for your project.</p>
 <br>
-<center><p>If you don't know how to make the stitch, check the link below!</p>
-<h6>LINK</h6><center>
+<center><h6>Check here if you don't know how to do the stitches</h6></center>
 </div>
 <div id="inputMainSwatch">
         <div class="input-card-swatch">
@@ -62,8 +61,8 @@ function swatchSubmitter(){
             Rows: ${userRows.value}.`,
             icon: "warning",
             showCancelButton: true,
-            confirmButtonColor: "#3085d6",
-            cancelButtonColor: "#d33",
+            confirmButtonColor: "#262625",
+            cancelButtonColor: "#AAA7C3",
             confirmButtonText: "Yes, save them."
             }).then((result) => {
             if (result.isConfirmed) {
@@ -71,6 +70,7 @@ function swatchSubmitter(){
                     title: "Saved!",
                     text: "Your swatch has been saved!",
                     icon: "success"
+
                 });
                 userSwatch.push({stitches: userStiches.value}, {rows: userRows.value})
                 sessionStorage.setItem("userSwatchNumbers", JSON.stringify(userSwatch));

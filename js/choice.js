@@ -108,8 +108,8 @@ export function choice(){
                     Arm: ${arm} cm.`,
                     icon: "warning",
                     showCancelButton: true,
-                    confirmButtonColor: "#3085d6",
-                    cancelButtonColor: "#d33",
+                    confirmButtonColor: "#262625",
+                    cancelButtonColor: "#AAA7C3",
                     confirmButtonText: "Yes, save them."
                     }).then((result) => {
                     if (result.isConfirmed) {
@@ -144,8 +144,8 @@ export function choice(){
                         Length: ${height} cm.`,
                         icon: "warning",
                         showCancelButton: true,
-                        confirmButtonColor: "#3085d6",
-                        cancelButtonColor: "#d33",
+                        confirmButtonColor: "#262625",
+                        cancelButtonColor: "#AAA7C3",
                         confirmButtonText: "Yes, save them!"
                         }).then((result) => {
                             if (result.isConfirmed) {
@@ -180,13 +180,16 @@ export function choice(){
                         Length: ${height} cm.`,
                         icon: "warning",
                         showCancelButton: true,
+                        confirmButtonColor: "#262625",
+                        cancelButtonColor: "#AAA7C3",
                         confirmButtonText: "Yes, save them!"
                     }).then((result) => {
                         if (result.isConfirmed) {
                             Swal.fire({
                                 title: "Saved!",
                                 text: "Your Measurements have been saved!",
-                                icon: "success"
+                                icon: "success",
+                                confirmButtonColor: "#262625",
                             });
                                 coverMeasurements.push({height: height}, {width: width})
                                 sessionStorage.setItem('userCoverMeasurements', JSON.stringify(coverMeasurements))
@@ -203,7 +206,7 @@ export function choice(){
 
 export function showingStitch(){
     Swal.fire({
-        title: "Here are the different stitches! （´ω｀♡%）",
+        title: "Here are the different stitches! ♡",
         text: "Check for your piece.",
         imageUrl: "../images/swatches.webp",
         imageWidth: 400,

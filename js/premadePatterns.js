@@ -5,7 +5,7 @@ makingPremadeoptions()
 
 export function makingPremadeoptions() {
     let linksMenu = document.querySelector(".link-menu")
-    const linksForMenu = ["All", "Wearable" , "Amigurumi", "Decor", "Bags" ]
+    const linksForMenu = ["All", "Wearables" , "Amigurumi", "Decor", "Bags" ]
     title.innerText = "Premade Patterns!"
     let quickMenu = ""
     for (const p of linksForMenu){
@@ -59,7 +59,6 @@ function showingAllOptions(){
 }
 
 function showFilter(filterPattern){
-    // step = document.querySelector(".main-step")
     fetch('../premade-patterns.json')
     .then((res) => res.json())
     .then((data) =>{
